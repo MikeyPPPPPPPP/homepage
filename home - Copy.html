@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>my site</title>
+		<style>
+			body {
+				background-color: lightblue;
+			}
+			div.tit {
+				text-align: center;
+			}
+			#Mframe {
+				width: 1005px;
+				position: relative;
+				margin: auto;
+				margin-top: auto;
+				margin-right: auto;
+				margin-bottom: auto;
+				margin-left: auto;
+				clear: both;
+				text-align: left;
+			}
+			.wrapper{
+				display:grid;
+				grid-template-columns:repeat(3, 1fr);
+				justify-items:center;
+				grid-gap:1em;
+			}
+			.wrapper > div{
+				background:#ddd;
+
+			}
+
+			/*
+			.thenav {
+				background-image: url("https://i.stack.imgur.com/NO521.png");
+			}
+			*/
+
+
+			.mid {
+				background-color: lightgrey;
+				padding-top: 1em;
+				padding-bottom: 4em;
+
+			}
+
+			.Blogbig {
+				color: navy;
+				padding-left: 1em;
+			}
+
+			.blogstuff > div {
+				
+				padding: 1em;
+			 	background-color: lightblue;
+			 	border: 1px solid red;
+			 	margin-top: 2em;
+			 	margin-bottom: 2em;
+  				margin-right: 2em;
+  				margin-left: 2em;
+
+			 	
+			}
+
+			 
+			
+		 </style>
+	 </head>
+	 <body>
+		<div style="width:100%;float:left;height:auto;">
+			<a href="/" target="_blank"><img  src="{{url_for('static', filename='cool.ico')}}" style="float: left"></a>
+			<div id="Mframe">
+				<div class="tit"; style="text-align:center; color:navy; background-color:Silver;">
+					<h1>TheMind</h1>
+				</div>
+				<div class="tit"; style="text-align:center; color:navy; background-color:#dcdcdc;">
+					<h2>Welcom to my home page</h2>
+				</div>
+			</div>
+		</div>
+		<nav class="thenav">
+			<hr>
+				<p style="margin:0px">
+				<a href="/">Home</a> &nbsp;
+				<a href="/student">Student</a> &nbsp;
+				<a href="/default">Default</a> &nbsp;
+				<a href="/Products">Products</a> &nbsp;
+				<a href="/login">Login</a> &nbsp;
+				<a href="/ContactUs">Contact Me</a></p>
+			<hr>
+		</nav>
+		<p>Currently under construction</p>
+		<div class="wrapper">
+			<div class="box1">
+			this is box 1
+			lfasdf;s;lfsdfkslgd;fg;dlfsgfdsg;dgs
+			lfasdf;s;lfsdfkslgd;fg;dlfsgfdsg;dgs
+			lfasdf;s;lfsdfkslgd;fg;dlfsgfdsg;dgs
+			lfasdf;s;lfsdfkslgd;fg;dlfsgfdsg;dgst
+			</div>
+			<div class="box2">
+			this is box 2
+			lfasdf;s;lfsdfkslgd;fg;dlfsgfdsg;dgs
+			lfasdf;s;lfsdfkslgd;fg;dlfsgfdsg;dgs
+			lfasdf;s;lfsdfkslgd;fg;dlfsgfdsg;dgs
+			lfasdf;s;lfsdfkslgd;fg;dlfsgfdsg;dgst
+			</div>
+			<div class="box3">
+			this is box 3
+			lfasdf;s;lfsdfkslgd;fg;dlfsgfdsg;dgs
+			lfasdf;s;lfsdfkslgd;fg;dlfsgfdsg;dgs
+			lfasdf;s;lfsdfkslgd;fg;dlfsgfdsg;dgs
+			lfasdf;s;lfsdfkslgd;fg;dlfsgfdsg;dgst
+			</div>
+				<div style="float:left;">
+				<div>
+					<img src="{{url_for('static', filename='homer.jpg')}}" align="middle" />
+				</div>
+			</div>
+			<div class="actiongroup">
+				<div>
+
+
+
+					<script type="application/javascript">
+					  function getIP(json) {
+					    document.write("My public IP address is: ", json.ip);
+					  }
+					</script>
+					<script type="application/javascript" src="https://api.ipify.org?format=jsonp&callback=getIP"></script>
+
+				</div>
+			</div>
+			<a href="http://en.dnstools.ch/show-my-ip.html" target="_blank" title="What is my IP address"><img src="http://en.dnstools.ch/out/2.gif" alt="What is my IP address" style="border:0"/></a>
+		</div>
+		<hr>
+		<div class="t_body">
+
+			<div class="mid">
+				<h1 class="Blogbig">BLOG</h1>
+				<div class="theblog">
+					<span>
+						<div class="blogstuff">
+							<div>
+								ksdafjsdafjsadlkfjsdaldfjlksdafjasfjsdalkfjsdlafjsladfjsa,<br>
+								fasdfsdfagsgsdgasdgsgsdgsdfasdfsdfagsgsdgasdgsgsdgsd
+
+							</div>
+
+							<div>
+								fasdfsdfagsgsdgasdgsgsdgsdfasdfsdfagsgsdgasdgsgsdgsdfasdfsdfagsgsdgasdgsgsdgsd<br>
+								fasdfsdfagsgsdgasdgsgsdgsdfasdfsdfagsgsdgasdgsgsdgsdfasdfsdfagsgsdgasdgsgsdgsdfasdfsdfagsgsdgasdgsgsdgsd.
+							</div>
+							
+							<div>
+								fasdfsdfagsgsdgasdgsgsdgsdfasdfsdfagsgsdgasdgsgsdgsdfasdfsdfagsgsdgasdgsgsdgsd
+							</div>
+
+							<div>
+								fasdfsdfagsgsdgasdgsgsdgsdfasdfsdfagsgsdgasdgsgsdgsd <i>mongodb</i> and using <br> fasdfsdfagsgsdgasdgsgsdgsd.
+
+							</div>
+
+							<div>
+								fasdfsdfagsgsdgasdgsgsdgsdfasdfsdfagsgsdgasdgsgsdgsdfasdfsdfagsgsdgasdgsgsdgsd <br>
+								fasdfsdfagsgsdgasdgsgsdgsdfasdfsdfagsgsdgasdgsgsdgsdfasdfsdfagsgsdgasdgsgsdgsd
+							</div>
+							
+						</div>
+					</span>
+				</div>
+			</div>
+			
+
+		</div>
+		<hr>	
+		<a href="/about">about</a>
+	</body>
+</html>
